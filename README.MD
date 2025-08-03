@@ -44,3 +44,11 @@
 # Run the below checks on MacOS
 # Confirm port 5985 is open and reachable with:
 # nc -vz 192.168.1.225 5985
+
+
+# Documents I followed - but I had to customize alot due to my setup:
+# https://docs.ansible.com/ansible/latest/os_guide/windows_winrm_certificate.html#using-ansible
+# https://docs.ansible.com/ansible/latest/os_guide/windows_winrm.html#create-listener
+# https://docs.ansible.com/ansible/latest/os_guide/windows_winrm_certificate.html#mapping-certificate-to-a-local-account
+# https://github.com/devopssolver/ansible-winrm-cert-auth/tree/master
+# https://www.youtube.com/watch?app=desktop&v=vcx0bIgGJXI
