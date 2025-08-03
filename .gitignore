@@ -1,0 +1,36 @@
+# .gitignore
+
+# SSH File
+*/id_rsa_pem
+
+# Azure DevOps
+*/PAT.txt
+
+# Secret Files
+X_Secret/*
+
+# Old Files
+Old_Files/*
+
+# Environment specific file(s)
+*.env
+
+# Python Virtual Environment
+*.venv/
+
+# Ignore Ansible Sensitive files:
+Ansible/roles/*/vars/main.yml
+Ansible/inventory*
+
+# Ignore Terraform Sensitive files:
+Terraform/*/terraform.tfvars
+Terraform/*/secrets.auto.tfvars
+Terraform/*/cloudinit/*
+*.tfvars
+
+# Ignore these Terraform Artifact folders and files: 
+# (Terraform plugin cache & state) & (Terraform lock file) & (Terraform local state file) & (Terraform backup of last state file)
+*.terraform/
+*.terraform.lock.hcl
+*.tfstate
+*.tfstate.*

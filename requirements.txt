@@ -1,0 +1,9 @@
+# Below are the requirements/dependencies for this project.
+
+ansible
+
+# This enables Ansible to talk to WinRM on Windows.
+# Make sure port 5985 is open (WinRM HTTP port).
+pywinrm[credssp]
+
+
