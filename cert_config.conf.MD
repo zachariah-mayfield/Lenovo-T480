@@ -1,4 +1,4 @@
-# OpenSSL config file line by line: 
+# OpenSSL config file line by line:
 # This file controls important certificate properties like subject name, extensions, and Subject Alternative Names (SANs) — all crucial for your WinRM and Ansible certificate setup.
 [req]
 distinguished_name = req_distinguished_name
@@ -93,3 +93,5 @@ Section	Purpose	Example Value
 [req_distinguished_name]	Define certificate subject fields	CN = LENOVO-T480 (hostname)
 [v3_req_combined]	Certificate extensions (key usage, EKU, SAN)	serverAuth, clientAuth, SAN refs
 [alt_names]	Subject Alternative Names	DNS, IP, UPN (OtherName SAN)
+
+Notes: 
